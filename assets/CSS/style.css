@@ -69,6 +69,9 @@ h2 {
 /*Navigation bar*/
 #navbar {
     background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 1020; /*to snsure it stays at the top*/
 }
 
 #navbar .logo {
