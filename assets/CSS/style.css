@@ -15,6 +15,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
 }
 
 h1,
@@ -38,7 +39,7 @@ h2 {
 }
 
 .section {
-    padding-top: 4rem;
+    padding-top: 4rem; /*prevent nav bar overlap*/
 }
 
 /*Buttons Styling*/
@@ -68,9 +69,6 @@ h2 {
 /*Navigation bar*/
 #navbar {
     background-color: var(--primary-color);
-    position: sticky;
-    top: 0;
-    z-index: 1020; /*to snsure it stays at the top*/
 }
 
 #navbar .logo {
