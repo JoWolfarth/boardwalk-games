@@ -93,10 +93,19 @@ h2 {
 }
 
 /*Events*/
-
 .student-discount {
     background-color: var(--highlight-color);
+    font-weight: bold;
     color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+}
+
+#events .table {
+    font-size: 0.8rem;
 }
 
 /*Game card library*/
@@ -162,13 +171,6 @@ h2 {
     #new-games .card,
     #fav-games .card {
         border: none;
-    }
-
-    /*Move student discount text to the center*/
-     {
-        .student-discount {
-            text-align: center;
-        }
     }
 }
 
